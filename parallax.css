@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Conteneur principal */
+.parallax-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Section avec image de Shibuya */
+.parallax-shibuya {
+    background-image: url('shibuya.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Section avec image du Mont Fuji */
+.parallax-mtfuji {
+    background-image: url('Mtfuji.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Contenu textuel */
+.content {
+    background-color: black;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
